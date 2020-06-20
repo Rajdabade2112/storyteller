@@ -1,0 +1,215 @@
+body {
+    background-color: palegoldenrod;
+}
+nav{
+    background-color: orange;
+    text-align: center;
+}
+a {
+    text-decoration-line: none;
+    color: darkred;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+nav a {
+    display: left;
+}
+.form {
+    height: 25px;
+    width: 200px;
+}
+.buttonc {
+    background-color: #1c1478;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.buttonc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.buttonc span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.buttonc:hover span {
+    padding-right: 25px;
+}
+  
+.buttonc:hover span:after {
+    opacity: 1;
+    right: 0;
+}  
+.buttonm {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid yellow;
+}
+#search {
+    width: 130px;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+#search:focus {
+    width: 20%;
+}
+#mystorytopic {
+    width: 60%;
+    height: 50px;
+    margin: 5px 0px 25px 300px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+#mb1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-self: center;
+}
+#mp1 {
+    font-size: 35px;
+    text-align: center;
+}
+#mt1 {
+    font-size: 20px;
+}
+#ci1 {
+    padding: 20px;
+}
+#ih1 {
+   color: greenyellow;
+   text-align: center;
+   font-weight: bold;
+   font-size: 50px;
+   text-shadow: black 10px;
+}
+#mh1 {
+    color: blue;
+    text-align: center;
+    background: pink ;
+    font-size: 50px;
+}
+#kh1 {
+    color: skyblue;
+    text-align: center;
+    font-size: 50px;
+    background-color: darkgreen;
+    margin: 20px 400px 20px 400px;
+}
+#ah1 {
+    color: hotpink;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#ch1 {
+    color: indianred;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+#ih2 {
+    color: skyblue;
+    text-align: center;
+    font-size: 40px;
+}
+#ah2 {
+    color: tomato;
+    text-align: center;
+    font-size: 40px;
+}
+#ih3 {
+    color: violet;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+#ah3 {
+    background: yellow;
+    font-size: 30px;
+}
+#ah4 {
+    background: yellowgreen;
+    font-size: 20px;
+}
+#abh3 {
+    color: turquoise;
+    font-size: 30px;
+}
+ol li {
+    background: violet;
+}
+#cat {
+    background: slateblue;
+    height: 30px;
+    font-size: 25px;
+    margin-right: 1000px;
+}
+#cate {
+    font-size: 20px;
+}
+#ch2 {
+    color: mediumpurple;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+}
+#ms1 {
+    height: 40px;
+    width: 500px;
+    font-size: 25px;
+}
+#ml1 {
+    font-size: 35px;
+    color: #1c1478;
+}
+#md1 {
+    border: 2px solid black;
+    background-color: seagreen;
+}
+#ci1 {
+    align-self: center;
+}
+#cp1 {
+    font-size: 20px;
+}

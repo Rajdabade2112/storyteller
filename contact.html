@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+              <ul>
+                <a href="#" class="brand-logo center"></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kids.html">KidsZone</a></li>
+                <li><a href="mystory.html">MySTORY</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </nav>
+    </header>
+
+
+    <h1 id="ch1">Contact Storyteller</h1>
+    <h2 id="ch2">From the above info.</h2>
+
+
+    <form name="contact" method="POST" 
+      data-netlify="true" class="col s12">
+      <input  type="hidden" name="form-name" value="contact" >
+      <p>
+        <div class="row">
+            <div class="input-field col s12">
+        <i class="material-icons prefix"></i>
+        <label for="icon_prefix" id="cp1">Storyteller name:</label>
+        <br>
+            <input class="form" id="icon_prefix" type="text" class="validate" required>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="input-field col s12">
+            <i class="material-icons prefix"></i>
+            <label for="icon_email" id="cp1">Email:</label>
+            <br>
+            <input class="form" id="icon_email" type="tel" class="validate" required>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix"></i>
+                    <label for="icon_telephone" id="cp1">Phone NO:</label>
+                    <br>
+                    <input class="form" id="icon_telephone" type="tel" class="validate" pattern="{9-8-7}[0-9]">
+                    <br>
+                    <br>
+
+                    <form class="col s12">
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <i class="material-icons prefix"></i>
+                            <label for="icon_prefix2"  id="cp1" >Your Message:</label>
+                            <br>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <br>
+                        </p>
+
+                        <div>
+                            <button class="buttonc" style="vertical-align:middle"><span>Send</span></button>
+                            </div>
+    
+</form>
+
+
+    <h2 id="coh2">Share your stories and get a chance to display<br>
+    your stories on our page. </h2>
+
+    
+</body>
+</html>
