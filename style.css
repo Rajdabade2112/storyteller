@@ -23,8 +23,9 @@ nav a {
     display: left;
 }
 .form {
-    height: 25px;
+    height: 30px;
     width: 200px;
+    font-size: 20px;
 }
 .buttonc {
     background-color: #1c1478;
@@ -211,5 +212,5 @@ ol li {
     align-self: center;
 }
 #cp1 {
-    font-size: 20px;
+    font-size: 25px;
 }
