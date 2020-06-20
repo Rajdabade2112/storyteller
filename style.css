@@ -22,14 +22,16 @@ nav li {
 nav a {
     display: left;
 }
+ol li {
+    background: violet;
+}
 .form {
     height: 30px;
-    width: 200px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 18px;
 }
 .buttonc {
     background-color: #1c1478;
-    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -58,8 +60,7 @@ nav a {
   
 .buttonc:hover span {
     padding-right: 25px;
-}
-  
+} 
 .buttonc:hover span:after {
     opacity: 1;
     right: 0;
@@ -73,8 +74,33 @@ nav a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border: 2px solid yellow;
+    border: 2px solid white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px 0px 20px 20px;
 }
+.buttonm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.buttonm span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+} 
+.buttonm:hover span {
+    padding-right: 25px;
+}  
+.buttonm:hover span:after {
+    opacity: 1;
+    right: 0;
+}  
+
 #search {
     width: 130px;
     height: 30px;
@@ -101,6 +127,15 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     color: chocolate;
 }
+#name {
+    height: 30px;
+    width: 250px;
+    margin-top: 0;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    color: royalblue;
+}
 #mb1 {
     display: flex;
     font-size: 20px;
@@ -108,8 +143,11 @@ nav a {
     align-self: center;
 }
 #mp1 {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    color: teal;
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 #mt1 {
     font-size: 20px;
@@ -177,9 +215,6 @@ nav a {
     color: turquoise;
     font-size: 30px;
 }
-ol li {
-    background: violet;
-}
 #cat {
     background: slateblue;
     height: 30px;
@@ -213,4 +248,9 @@ ol li {
 }
 #cp1 {
     font-size: 25px;
+}
+#cp2 {
+    font-size: 18px;
+    width: 250px;
+    height: 150px;
 }
