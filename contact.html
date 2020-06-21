@@ -31,31 +31,34 @@
     <h2 id="ch2">From the above info.</h2>
 
     
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" action="action.php">
+        <h4 id="ch4">*required</h4>
         <label  id="cp1">Storyteller name:</label>
             <br>
-        <input class="form" type="text"  required> 
+        <input class="form" name="name" type="text"  required>
+         
 
             <br>
             <br>
-
+            <h4 id="ch4">*required</h4>
         <label  id="cp1">Email:</label>
             <br>
-         <input class="form"  type="tel"  required> 
+         <input class="form" name="email"  type="email"  required>
+          
 
             <br>
             <br>
 
         <label id="cp1">Phone no:</label>
             <br>    
-        <input class="form"  type="tel" >
+        <input class="form" name="phone"  type="tel" >
 
             <br>
             <br>
 
         <label  id="cp1" >Your Message:</label>
             <br>
-         <textarea id="cp2"  class="textarea"></textarea>
+         <textarea id="cp2" name="Message"  class="textarea"></textarea>
         <br>
     
         <button class="buttonc" style="vertical-align:middle"><span>Send</span></button>    

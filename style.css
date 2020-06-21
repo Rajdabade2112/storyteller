@@ -232,11 +232,11 @@ ol li {
     font-size: 30px;
 }
 #ah3 {
-    background: yellow;
+    color: indigo;
     font-size: 30px;
 }
 #ah4 {
-    background: yellowgreen;
+    color: purple;
     font-size: 20px;
 }
 #abh3 {
@@ -247,7 +247,7 @@ ol li {
     background: slateblue;
     height: 30px;
     font-size: 25px;
-    margin-right: 1000px;
+    margin-right: 1200px;
 }
 #cate {
     font-size: 20px;
@@ -282,3 +282,54 @@ ol li {
     width: 250px;
     height: 150px;
 }
+#ch4 {
+    color: grey;
+    margin-bottom: 2px ;
+    padding-left: 5px;
+}
+.wrapper {
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 100px 100px 100px;
+background-color: black;
+width: 100%;
+background-image: url('ks.jpg');
+background-repeat: no-repeat;
+background-position-x: 1050px;
+background-size: 500px 550px ;
+}
+.box  {
+    border: 5px solid white;
+    color: orange;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.a {
+    width: 1000px;
+    height: 500px;
+}
+.wrapper2 {
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    background-color: black;
+    width: 100%;
+    background-image: url('ks2.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 1050px;
+    background-size: 435px 550px ;
+}
+.box2  {
+        border: 5px solid white;
+        color: green;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;
+}
+.b {
+    width: 1000px;
+    height: 500px;
+}
+
